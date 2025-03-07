@@ -1,4 +1,14 @@
-/* Estilo para a barra de navegação */
+/* Estilo para o fundo do site */
+body {
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor do texto principal */
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    line-height: 1.6; /* Espaçamento entre linhas para melhorar a leitura */
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegação (menu) */
 nav {
     background-color: #333; /* Cor de fundo da barra de navegação */
     padding: 10px 0; /* Espaçamento dentro da barra */
@@ -33,15 +43,6 @@ nav ul li a:hover {
 nav ul li a:active {
     background-color: #222; /* Cor de fundo quando o link é pressionado */
 }
-/* Estilo para o fundo do site */
-body {
-    background-color: #f4f4f4; /* Cor de fundo clara */
-    color: #333; /* Cor do texto principal */
-    font-family: 'Arial', sans-serif; /* Fonte padrão */
-    line-height: 1.6; /* Espaçamento entre linhas para melhorar a leitura */
-    margin: 0;
-    padding: 0;
-}
 
 /* Cabeçalho do site */
 header {
@@ -56,7 +57,7 @@ header h1 {
     margin: 0;
 }
 
-/* Seção 'Who We Are' */
+/* Seção 'Who We Are' e outras seções */
 section {
     margin: 20px; /* Margem em volta de cada seção */
     padding: 20px; /* Espaçamento dentro de cada seção */
