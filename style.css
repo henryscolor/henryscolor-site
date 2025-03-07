@@ -1,47 +1,35 @@
-/* Resetando margens e paddings */
-* {
-    margin: 0;
+/* Estilo para a barra de navegação */
+nav {
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    padding: 10px 0; /* Espaçamento dentro da barra */
+    text-align: center; /* Alinhamento centralizado do conteúdo */
+}
+
+nav ul {
+    list-style-type: none; /* Remove as bolinhas da lista */
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
+    display: flex; /* Para os itens ficarem em uma linha */
+    justify-content: center; /* Alinha os itens no centro */
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+nav ul li {
+    margin: 0 15px; /* Espaço entre os itens do menu */
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+nav ul li a {
+    color: white; /* Cor das letras */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1.2em; /* Tamanho da fonte */
+    padding: 10px 15px; /* Espaçamento dentro dos links */
+    transition: background-color 0.3s ease; /* Animação suave para a mudança de cor */
 }
 
-h1 {
-    font-size: 2.5em;
+nav ul li a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas nos links */
 }
 
-section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 1200px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #333;
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+nav ul li a:active {
+    background-color: #222; /* Cor de fundo quando o link é pressionado */
 }
